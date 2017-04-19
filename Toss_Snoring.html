@@ -6,11 +6,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" type="text/css">
   <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-  <script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
   <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
   <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all">
   <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-  <script src="chartdiv_a.js"></script>
+  <script src="chartdiv_tat.js"></script>
+  <script src="chartdiv.js"></script>
 </head>
 
 <body>
@@ -29,21 +30,6 @@
       </div>
     </div>
   </nav>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div class="card">
-            <div class="card-block">
-              <h3 class="card-title my-3 text-capitalize"><b>Here's a summary of your past night</b></h3>
-              <h6 class="card-subtitle text-primary">&lt; Reference result &gt;</h6>
-              <p class="card-text p-y-1 text-primary">Temperatrue and humidity indicates average</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="">
     <div class="container">
       <div class="row">
@@ -63,12 +49,36 @@
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4" id="chartdiv_a" style="width: 100%; height: 400px; background-color: #FFFFFF;"></div>
-        <div class="col-md-4"><img class="center-block img-fluid d-block" src="images/thermometer.png"></div>
-        <div class="col-md-4"><img class="center-block img-fluid d-block" src="images/raindrop.png"></div>
+        <div class="col-md-12 text-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title my-3 text-capitalize">The Degree Of <b>SNORING</b> In Your Last Night</h3>
+              <h6 class="card-subtitle text-primary">&lt; Reference result &gt;</h6>
+              <p class="card-text p-y-1 text-primary">abcd</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;"></div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title my-3 text-capitalize">The Degree Of <b>TOSS AND TURN</b> In Your Last Night</h3>
+              <h6 class="card-subtitle text-primary">&lt; Reference result &gt;</h6>
+              <p class="card-text p-y-1 text-primary">abcd</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="chartdiv_tat" style="width: 100%; height: 500px; background-color: #FFFFFF;"></div>
+
   <div class="h-15 bg-faded p-1">
     <div class="container">
       <div class="row">
