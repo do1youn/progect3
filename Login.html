@@ -1,16 +1,104 @@
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" rel="stylesheet" type="text/css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" type="text/css"> </head>
 
-  <body>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-  </body>
-  
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-inverse text-uppercase">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">4 Friends '3S' Project</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item text-gray-dark">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="#">OUR WORKS</a>
+          </li>
+          <li class="nav-item text-gray-dark">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li>
+          <li class="nav-item text-gray-dark">
+            <a class="nav-link" href="#">JOIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="p-3 bg-faded">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="bg-faded py-4 text-gray-dark display-3"><b>Welcome!</b></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-gray-dark">
+          <h1 class="pi-item">LOGIN</h1>
+          <form class="submitform" action="login.php" method="post">
+            <div class="form-group"> <label>ID</label>
+              <input type="text" class="form-control" placeholder="Enter ID" name="loginID"> </div>
+            <div class="form-group"> <label>Password</label>
+              <input type="password" class="form-control" placeholder="Password" name="loginPASS"> </div>
+            <button type="submit" class="btn btn-primary" value="login">로그인</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-primary"><b>아직 회원가입을 안하셨나요?!</b></h3>
+          <p class="lead">개인 수면 데이터를 보기 위해서는 회원가입이 필요합니다! 아래의 버튼을 눌러 회원가입을 해주세요.
+            <br> </p>
+          <a href="#" class="btn w-25 btn-outline-info"><b class="text-primary">회원가입</b></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-2 text-primary bg-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-md-12">
+          <a><i class="fa fa-fw fa-facebook fa-2x text-white"></i><i class="fa fa-fw fa-twitter fa-2x mx-auto text-white"></i><i class="fa fa-fw fa-instagram fa-2x text-white"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="h-15 bg-faded p-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center"> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="list-inline text-center m-2 text-gray-dark"><b>건양대학교 의료공과대 의료IT공학과 Smart Health Care Lab - 2017.1</b>
+            <br>&nbsp; Copyright(c) 2017 doyoun.dothome.co.kr Inc. T:010-3164-5204 E:rhaxl89@gmail.com
+            <br>powered by do1</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
+
 </html>
